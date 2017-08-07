@@ -1,0 +1,3 @@
+FROM paulcager/debian-builder
+
+RUN apt-get update && apt-get build-dep -y ncl
